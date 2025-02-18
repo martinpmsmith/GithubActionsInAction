@@ -18,6 +18,7 @@ jobs:
     needs: job_1
     steps:
       - run: "echo Job: ${{ github.job }}"
+      - run: "echo  Hello World :rocket:"
 
   job_3:
     runs-on: ubuntu-latest
